@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.map-container {
+    position: relative;
+    display: inline-block;
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+}
+
+.hotspot {
+    position: absolute;
+    display: block;
+    background-color: rgba(255, 0, 0, 0.3); /* Optional: helps to see the area */
+    text-decoration: none;
+}
+
+.delhi {
+    top: 20%;
+    left: 45%;
+    width: 10%;
+    height: 8%;
+}
+
+.mumbai {
+    top: 50%;
+    left: 10%;
+    width: 10%;
+    height: 8%;
+}
+
+.kolkata {
+    top: 30%;
+    left: 75%;
+    width: 10%;
+    height: 8%;
+}
+
+/* Add hover effect */
+.hotspot:hover {
+    background-color: rgba(0, 255, 0, 0.3);
+}
